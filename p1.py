@@ -11,8 +11,20 @@
 
 
 #sum of numbers from 1 to 10 by using for loop
-n=int(input("Enter a number to count"))
-t=0
-for i in range(1,n):
-    t += i
-print(t)
+# n=int(input("Enter a number to count"))
+# t=0
+# for i in range(1,n):
+#     t += i
+# print(t)
+
+
+# palindrome number
+
+def is_palindrome(s):
+    if s == s[::-1]:
+        return True
+    return False
+
+print(is_palindrome("naman"))
+print(is_palindrome("saurabh"))
+print(is_palindrome("nitin"))
